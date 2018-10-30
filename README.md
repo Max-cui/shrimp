@@ -1,17 +1,23 @@
 # init Shrimp Project
 
-start server
+## start server
+
 python manager.py runserver
 
-indes page
+## indes page
+
 http://localhost:8000
 
-admin console
+## admin console
+
 http://localhost:8000/admin
 
-init database tables
+##init database tables
+
 python manage.py makemigrations
+
 python manage.py migrate
 
-create admin user
+## create admin user
+
 python manage.py createsuperuser
